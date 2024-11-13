@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - School Name</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+    <!-- Navbar (Same as other pages for consistency) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">School Name</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="admission.html">Admissions</a></li>
+                <li class="nav-item"><a class="nav-link" href="academic.html">Academics</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Page Header -->
+    <header class="bg-primary text-white text-center py-5">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Get in touch with us today.</p>
+    </header>
+
+    <!-- Contact Information Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Our Contact Information</h2>
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <h5>Address</h5>
+                <p>1234 School Lane, City, State, ZIP</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h5>Phone</h5>
+                <p>+123-456-7890</p>
+            </div>
+            <div class="col-md-4 text-center">
+                <h5>Email</h5>
+                <p>info@schoolname.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Google Maps Embed Section -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Our Location</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.45628124385!2d-74.0209148764511!3d40.69767006473709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDQyJzMyLjQiTiA3NMKwMDUnMzAuNCJX!5e0!3m2!1sen!2sus!4v1616285416507!5m2!1sen!2sus" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Send Us a Message</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" class="form-control" id="subject" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2023 School Name. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* Custom styles for the Contact Page */
+header {
+    background-color: #004080;
+}
+
+h5 {
+    font-weight: bold;
+}
+
+form .form-group label {
+    font-weight: bold;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

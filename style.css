@@ -1,0 +1,13 @@
+/* Custom styles for the About Page */
+header {
+    background-color: #004080;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-text {
+    color: #666;
+}
